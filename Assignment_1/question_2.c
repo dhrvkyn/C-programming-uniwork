@@ -4,6 +4,7 @@ int main() {
     /*
      * Question: Write a program on menu based banking where the user has three accounts and he/she can deposit, withdraw and check their balance in any account they chose.
      * Given: A user, has three accounts, ability to manage accounts
+     * Algorithm: Start with some empty variables(?) - ... then start with a while loop, given condition is true and make it run and print menu and stuff and then add if else statements to perform various actions, i think that'll do it.
      */
     float account_balances[3] = {0.0, 0.0, 0.0};
     int choice;
@@ -68,4 +69,4 @@ int main() {
 
     return 0;
 }
-
+// this code will print a menu when we run it and will ask for an input and then an input again to show the result, user can view and manage their (assumed) account using this program.
